@@ -1,7 +1,19 @@
 /**************************/
 /* HEADER */
 /**************************/
+.txt {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+.txt {
+  text-decoration: none;
+}
 
+.txt:hover {
+  color: #555;
+}
 .header {
   display: flex;
   justify-content: space-between;
