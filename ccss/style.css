@@ -32,8 +32,6 @@
 /* Template default CSS
 /*----------------------------------------*/
 .blog-details-hero {
-  width: 1300px;
-  height: auto;
   background-image: url("img/blog/details/details-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +79,7 @@ h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 2rem;
   font-family: "Muli", sans-serif;
   color: #a9a9a9;
   font-weight: 400;

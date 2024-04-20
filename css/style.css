@@ -7,9 +7,6 @@
   transition: color 0.3s ease;
   text-decoration: none;
 }
-.txt {
-  text-decoration: none;
-}
 
 .txt:hover {
   color: #555;
@@ -657,3 +654,13 @@
 }
 
 /* aaaaaaaaaaaaaaaaaa */
+.blog-details-hero {
+  background-image: url("img/blog/details/quote-left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bh-text h1 {
+  font-size: 2em; /* Adjust as needed */
+  color: #333; /* Adjust as needed */
+}
