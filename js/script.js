@@ -82,3 +82,22 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
+function validateForm() {
+  var name = document.forms["sign-up"]["full-name"].value;
+  var phone = document.forms["sign-up"]["phone"].value;
+  var selectWhere = document.forms["sign-up"]["select-where"].value;
+
+  if (name == "" || phone == "" || selectWhere == "") {
+    alert("All fields must be filled out");
+    return false;
+  } else if (!/^[a-zA-Z\s]*$/.test(name)) {
+    alert("Name should only contain letters and spaces");
+    return false;
+  } else if (phone.length != 10) {
+    alert("Phone number should be 10 digits");
+    return false;
+  } else {
+    window.location.href = "index2.html";
+    return false;
+  }
+}
