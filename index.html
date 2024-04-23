@@ -471,7 +471,12 @@
                 vestibulum. Velit senectus.
               </p>
 
-              <form class="cta-form" name="sign-up" netlify>
+              <form
+                class="cta-form"
+                name="sign-up"
+                onsubmit="return validateForm()"
+                netlify
+              >
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -484,13 +489,14 @@
                 </div>
 
                 <div>
-                  <label for="email">Phone no</label>
+                  <label for="phone">Phone no</label>
                   <input
                     id="phone"
                     type="tel"
                     placeholder="7541906974"
                     name="phone"
                     required
+                    pattern="[0-9]{10}"
                   />
                 </div>
 
@@ -501,21 +507,35 @@
                     <option value="friends">Classmates</option>
                     <option value="youtube">Socialmedia</option>
                     <option value="podcast">Newspaper Ads</option>
-
                     <option value="others">Others</option>
                   </select>
                 </div>
 
-                <button
-                  class="btn btn--form"
-                  onclick="window.location.href='index2.html'"
-                >
-                  Sign up now
-                </button>
-
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
+                <button class="btn btn--form" type="submit">Sign up now</button>
               </form>
+
+              <script>
+                function validateForm() {
+                  var name = document.forms["sign-up"]["full-name"].value;
+                  var phone = document.forms["sign-up"]["phone"].value;
+                  var selectWhere =
+                    document.forms["sign-up"]["select-where"].value;
+
+                  if (name == "" || phone == "" || selectWhere == "") {
+                    alert("All fields must be filled out");
+                    return false;
+                  } else if (!/^[a-zA-Z\s]*$/.test(name)) {
+                    alert("Name should only contain letters and spaces");
+                    return false;
+                  } else if (phone.length != 10) {
+                    alert("Phone number should be 10 digits");
+                    return false;
+                  } else {
+                    window.location.href = "index2.html";
+                    return false;
+                  }
+                }
+              </script>
             </div>
             <div
               class="cta-img-box"
