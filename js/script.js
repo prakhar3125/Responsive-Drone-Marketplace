@@ -101,3 +101,40 @@ function validateForm() {
     return false;
   }
 }
+function handleFormSubmission() {
+  document
+    .querySelector(".checkout-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      var name = document.getElementById("name").value;
+      var cardNumber = document.getElementById("cardNumber").value;
+      var expiryDate = document.getElementById("expiryDate").value;
+      var cvc = document.getElementById("cvc").value;
+
+      if (!/^[a-zA-Z\s]*$/.test(name)) {
+        alert("Name should contain only text.");
+        return false;
+      }
+
+      if (!/^\d{16}$/.test(cardNumber)) {
+        alert("Card number should be a 16 digit number.");
+        return false;
+      }
+
+      if (!/^(0[1-9]|1[0-2])\/\d{2}$/.test(expiryDate)) {
+        alert("Expiry date should be of format MM/YY.");
+        return false;
+      }
+
+      if (!/^\d{3}$/.test(cvc)) {
+        alert("CVC should be a 3 digit number.");
+        return false;
+      }
+
+      alert("Form submitted successfully!");
+      return true;
+    });
+}
+
+handleFormSubmission();
