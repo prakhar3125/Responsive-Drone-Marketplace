@@ -1,3 +1,7 @@
+.bh-text {
+  font-size: 2em; /* This will make the text size twice as large as the normal text size */
+}
+
 .blog-details-hero {
   background-image: url("img/blog/details/details-hero.jpg");
   background-repeat: no-repeat;
