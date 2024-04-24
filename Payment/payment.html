@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Complete your purchase</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-icons-container">
+        <img src="Payment/Resources/Search.svg" alt="" class="icon" />
+        <img src="Payment/Resources/Profile.svg" alt="" class="icon" />
+        <img src="Payment/Resources/Cart.svg" alt="" class="icon" />
+      </div>
+    </header>
+
+    <div class="progress-checkout-container">
+      <div class="progress-step-container">
+        <div class="step-check"></div>
+        <span class="step-title">Shipping</span>
+      </div>
+      <div class="progress-step-container">
+        <div class="step-check"></div>
+        <span class="step-title">Payment</span>
+      </div>
+      <div class="progress-step-container">
+        <div class="step-check"></div>
+        <span class="step-title">Review</span>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h2 class="form-title">Payment Details</h2>
+      <form action="" class="checkout-form">
+        <div class="input-line">
+          <label for="name">Name on card</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your name and surname"
+          />
+        </div>
+        <div class="input-line">
+          <label for="cardNumber">Card number</label>
+          <input
+            type="text"
+            name="cardNumber"
+            id="cardNumber"
+            placeholder="1111-2222-3333-4444"
+          />
+        </div>
+        <div class="input-container">
+          <div class="input-line">
+            <label for="expiryDate">Expiring Date</label>
+            <input
+              type="text"
+              name="expiryDate"
+              id="expiryDate"
+              placeholder="MM/YY"
+            />
+          </div>
+          <div class="input-line">
+            <label for="CVV">CVC</label>
+            <input type="text" name="cvc" id="cvc" placeholder="***" />
+          </div>
+        </div>
+        <input type="submit" value="Complete purchase" />
+      </form>
+      <script>
+        document
+          .querySelector(".checkout-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            var name = document.getElementById("name").value;
+            var cardNumber = document.getElementById("cardNumber").value;
+            var expiryDate = document.getElementById("expiryDate").value;
+            var cvc = document.getElementById("cvc").value;
+
+            if (!/^[a-zA-Z\s]*$/.test(name)) {
+              alert("Name should contain only text.");
+              return false;
+            }
+
+            if (!/^\d{16}$/.test(cardNumber)) {
+              alert("Card number should be a 16 digit number.");
+              return false;
+            }
+
+            if (!/^(0[1-9]|1[0-2])\/\d{2}$/.test(expiryDate)) {
+              alert("Expiry date should be of format MM/YY.");
+              return false;
+            }
+
+            if (!/^\d{3}$/.test(cvc)) {
+              alert("CVC should be a 3 digit number.");
+              return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+          });
+      </script>
+    </div>
+  </body>
+</html>
