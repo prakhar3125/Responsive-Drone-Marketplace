@@ -1,3 +1,17 @@
+.cta-form input[type="text"],
+.cta-form input[type="tel"],
+.cta-form select {
+  color: #000000;
+}
+
+.section-meals {
+  background-color: #1d2229;
+}
+
+.step-description {
+  color: #ffffff;
+}
+
 .txt {
   text-decoration: none;
 }
@@ -95,7 +109,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .cta {

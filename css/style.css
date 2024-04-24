@@ -1,3 +1,41 @@
+.cta-form input[type="text"],
+.cta-form input[type="tel"],
+.cta-form select {
+  color: #000000;
+}
+
+.footer {
+  background-color: #1d2229;
+}
+
+.btn.btn--outline {
+  border: 1px solid #000000;
+}
+
+.list {
+  color: #000000;
+}
+
+.pricing-plan.pricing-plan--starter {
+  background-color: #ffffff;
+}
+
+.section-pricing {
+  background-color: #1d2229;
+}
+
+.step-description {
+  color: #ffffff;
+}
+
+.section-how {
+  background-color: #1d2229;
+}
+
+.hero-description {
+  color: #ffffff;
+}
+
 .txt {
   text-decoration: none;
   color: black;
@@ -12,7 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #adf5ff;
+  background-color: #1d2229;
 
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -40,7 +78,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -92,7 +130,7 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.97);
+  background-color: rgba(0, 0, 0, 0.97);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
@@ -209,7 +247,7 @@
 }
 
 .step-img {
-  width: 55%;
+  width: 100%;
 }
 
 .section-meals {
@@ -217,14 +255,11 @@
 }
 
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
 }
 
 .meal:hover {
-  transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
@@ -260,7 +295,7 @@
 
 .meal-title {
   font-size: 2.4rem;
-  color: #333;
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
@@ -306,7 +341,6 @@
 }
 
 .testimonials {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
   column-gap: 8rem;
@@ -331,7 +365,7 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
@@ -342,7 +376,7 @@
 
 .gallery-item img {
   display: block;
-  width: 100%;
+  width: 40%;
   transition: all 0.4s;
 }
 
