@@ -296,7 +296,6 @@ ol {
   border: 2px solid #363636;
   line-height: 47px;
   text-align: center;
-  border-radius: 50%;
   -webkit-transform: translateX(-27.5px);
   -ms-transform: translateX(-27.5px);
   transform: translateX(-27.5px);
@@ -395,7 +394,6 @@ ol {
 .blog-details-text .blog-details-author .ba-pic img {
   height: 90px;
   width: 90px;
-  border-radius: 50%;
 }
 
 .blog-details-text .blog-details-author .ba-text h5 {
@@ -468,7 +466,6 @@ ol {
 .blog-details-text .comment-option .co-item .co-pic img {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
   float: left;
   margin-right: 10px;
 }
