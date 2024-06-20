@@ -7,12 +7,14 @@ Site Demo: https://prakhar3125.github.io/Responsive-Drone-Marketplace/
 
 – Enhanced user interaction with JavaScript form validation to ensure only valid inputs are processed, maintaining data integrity and usability.
 
-![22BCI0127_MiniProject-02](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/4f7aa591-2fd9-46ba-9504-6b4aefca6e22)
-![22BCI0127_MiniProject-03](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/1e67ad49-7159-42d1-9e3c-74d466cbe749)
-![22BCI0127_MiniProject-04](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/0ffead9c-8f6d-445b-b298-a050286517d8)
-![22BCI0127_MiniProject-05](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/a97c9c0e-ea4e-4ae6-afdd-ab36025f46f9)
-![22BCI0127_MiniProject-06](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/06a53ebb-9985-40dd-b4ac-65f4d48ad8a8)
-![22BCI0127_MiniProject-07](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/b5928754-a17e-4887-a552-bf36ef9c6bea)
-![22BCI0127_MiniProject-08](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/be6a8a28-339b-4bd1-9df8-e0661f2cb406)
-![22BCI0127_MiniProject-09](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/9e8bc76f-63d0-44d5-8cbf-a80653ddaf3f)
-![22BCI0127_MiniProject-10](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/e87a61ee-e411-4603-b401-a1883bc43914)
+
+![1](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/64da1353-df00-426b-91b4-cac158b89d74)
+![2](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/db5ffa24-c91e-4489-8795-7c84e8c53731)
+![3](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/481988a7-fd9a-4244-82f4-bd425a7a1965)
+![4](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/4f041a8c-f2fc-4644-b50f-dba1314834f1)
+![5](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/108b39c2-2de9-420f-a1ae-6daf9100f5d0)
+![6](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/f4d5eae8-1259-492c-9335-e38340560baa)
+![7](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/605d8824-8e0b-42e3-956f-67ddd2ea675e)
+![8](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/1a82699b-e168-40c2-8839-deaaa589bf9d)
+![9](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/12fe8fef-f758-4417-bf99-a6e9e9a208e7)
+![10](https://github.com/prakhar3125/Responsive-Drone-Marketplace/assets/111203228/ee7a78bb-ce87-43bc-900b-c112a8adb919)
