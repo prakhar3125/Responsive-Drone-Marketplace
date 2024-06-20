@@ -1,4 +1,12 @@
-Web Programming Project
+Responsive Drone Marketplace Website
+Site Demo : https://prakhar3125.github.io/Responsive-Drone-Marketplace/
+
+– Implemented a responsive design for optimal user experience across various mobile devices, ensuring accessibility
+ and functionality.
+ – Applied modern HTML and CSS techniques to create a professional-looking layout using flexbox and CSS Grid,
+ adhering to web design guidelines for typography, colors, and spacing.
+ – Enhanced user interaction with JavaScript form validation to ensure only valid inputs are processed, maintaining
+ data integrity and usability.
 ![22BCI0127_MiniProject-02](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/4f7aa591-2fd9-46ba-9504-6b4aefca6e22)
 ![22BCI0127_MiniProject-03](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/1e67ad49-7159-42d1-9e3c-74d466cbe749)
 ![22BCI0127_MiniProject-04](https://github.com/prakhar3125/Prakhar22BCI0127_WebProgramming.github.io/assets/111203228/0ffead9c-8f6d-445b-b298-a050286517d8)
