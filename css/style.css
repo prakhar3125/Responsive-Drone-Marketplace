@@ -91,6 +91,7 @@
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
+  border-radius: 9px;
   padding: 1.2rem 2.4rem;
   color: #fff;
   background-color: #d9a679;
@@ -161,6 +162,7 @@
 
 .hero-img {
   width: 100%;
+  border-radius: 4px;
 }
 
 .delivered-meals {
@@ -179,6 +181,7 @@
   width: 4.8rem;
   margin-right: -1.6rem;
   border: 3px solid #1d2229;
+  border-radius: 50%;
 }
 
 .delivered-imgs img:last-child {
@@ -227,6 +230,28 @@
 /**************************/
 /* HOW IT WORKS SECTION */
 /**************************/
+.btn--form {
+  border: 2px solid #333;
+  border-radius: 11px; /* Adds curvature to the corners */
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn--outline {
+  border: 2px solid #333;
+  background-color: transparent;
+  color: #333;
+  border-radius: 11px; /* Adds curvature to the corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn--outline:hover {
+  background-color: #333;
+  color: #fff;
+}
 
 .section-how {
   padding: 9.6rem 0;
@@ -246,6 +271,7 @@
 
 .step-img {
   width: 100%;
+  border-radius: 4px;
 }
 
 .section-meals {
@@ -253,6 +279,8 @@
 }
 
 .meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
 }
@@ -277,6 +305,7 @@
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #333;
+  border-radius: 100px;
   font-weight: 600;
 }
 
@@ -334,7 +363,7 @@
 }
 
 .testimonials-container {
-  padding: 9.6rem;
+  padding: 19.6rem;
 }
 
 .testimonials {
@@ -345,6 +374,7 @@
 
 .testimonial-img {
   width: 6.4rem;
+  border-radius: 50%;
   margin-bottom: 1.2rem;
 }
 
@@ -372,8 +402,9 @@
 
 .gallery-item img {
   display: block;
-  width: 60%;
+  /* width: 60%; */
   transition: all 0.4s;
+  border-radius: 4px;
 }
 
 .section-pricing {
@@ -381,6 +412,7 @@
 }
 
 .pricing-plan {
+  border-radius: 11px;
   width: 75%;
 }
 
@@ -448,6 +480,7 @@
   background-color: #1d2229;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
+  border-radius: 50%;
 }
 
 .feature-title {
@@ -472,7 +505,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 
   background-color: #1d2229;
-
+  border-radius: 11px;
   overflow: hidden;
 }
 
@@ -517,6 +550,7 @@
   border: none;
   background-color: #ffffff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 9px;
 }
 
 .cta-form input::placeholder {

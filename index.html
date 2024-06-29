@@ -194,7 +194,7 @@
       <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Shop</span>
-          <h2 class="heading-secondary">Experience breathtaking aerial perspectives with our cutting-edge drone technology.</h2>
+          <h2 class="heading-secondary">Drone Ultra Light is equipped with a high-quality camera that allows users to capture stunning images.</h2>
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
@@ -205,7 +205,7 @@
             </header>
             <ul class="list">
               <li class="list-item">
-                <span>One of the standout features of the Drone Ultra is its powerful camera system.</span>
+                <span>Drone Ultra Light is equipped with a high-quality camera that allows users to capture stunning images.</span>
               </li>
               <li class="list-item">
                 <span>High-resolution imagery</span>
@@ -213,6 +213,9 @@
 
               <li class="list-item">
                 <span>9 hours flight time
+
+
+
 
 </span>
               </li>
@@ -273,16 +276,19 @@
                 onsubmit="return validateForm()"
                 netlify
               >
-                <div>
-                  <label for="full-name">Full Name</label>
-                  <input
+              <div>
+                <label for="full-name">Full Name</label>
+                <input
                     id="full-name"
                     type="text"
                     placeholder="Enter Name (Only Characters)"
                     name="full-name"
                     required
-                  />
-                </div>
+                    pattern="[a-zA-Z\s]+"
+                    title="Name should only contain letters and spaces"
+                />
+            </div>
+            
 
                 <div>
                   <label for="phone">Phone no</label>
@@ -293,6 +299,7 @@
                     name="phone"
                     required
                     pattern="[0-9]{10}"
+                    title="Provide a 10 Digit Number"
                   />
                 </div>
 

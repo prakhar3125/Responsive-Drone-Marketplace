@@ -83,17 +83,17 @@ function checkFlexGap() {
 }
 checkFlexGap();
 function validateForm() {
-  var name = document.forms["sign-up"]["full-name"].value;
+  var name = document.forms["sign-up"]["full-name"].value.trim();
   var phone = document.forms["sign-up"]["phone"].value;
   var selectWhere = document.forms["sign-up"]["select-where"].value;
 
-  if (name == "" || phone == "" || selectWhere == "") {
+  if (name === "" || phone === "" || selectWhere === "") {
     alert("All fields must be filled out");
     return false;
   } else if (!/^[a-zA-Z\s]*$/.test(name)) {
     alert("Name should only contain letters and spaces");
     return false;
-  } else if (phone.length != 10) {
+  } else if (phone.length !== 10 || !/^\d{10}$/.test(phone)) {
     alert("Phone number should be 10 digits");
     return false;
   } else {
@@ -101,6 +101,7 @@ function validateForm() {
     return false;
   }
 }
+
 function handleFormSubmission() {
   document
     .querySelector(".checkout-form")
