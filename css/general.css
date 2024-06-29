@@ -45,7 +45,7 @@ body {
 
 .container {
   max-width: 100rem;
-
+  padding: 0 3.2rem;
   margin: 0 auto;
 }
 
@@ -154,15 +154,18 @@ body {
 }
 
 .btn--form {
-  background-color: #45260a;
-  color: #fdf2e9;
+  border: 2px solid #ffffff;
+  /* background-color: transparent; */
   align-self: end;
   padding: 1.2rem;
+  color: #333;
+  border-radius: 11px; /* Adds curvature to the corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn--form:hover {
-  background-color: #fff;
-  color: #555;
+  background-color: #333;
+  color: #fff;
 }
 
 .link:link,

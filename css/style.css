@@ -230,10 +230,11 @@
 /**************************/
 /* HOW IT WORKS SECTION */
 /**************************/
-.btn--form {
-  border: 2px solid #333;
+/* .btn--form {
+  border: 3px solid #ffffff;
   border-radius: 11px; /* Adds curvature to the corners */
-}
+} */
+
 .btn {
   padding: 10px 20px;
   font-size: 16px;
@@ -360,11 +361,13 @@
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
-  padding: 0 19.6rem ;
+
   
 }
 
-
+.testimonials-container {
+  padding: 9.6rem;
+}
 
 .testimonials {
   grid-template-columns: 1fr 1fr;
