@@ -413,6 +413,7 @@
   overflow: hidden;
   display: flex;
   justify-content: center; /* Center items horizontally within each grid item */
+  margin:  4.2rem
 }
 
 .gallery-item img {

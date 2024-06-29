@@ -192,7 +192,7 @@ input[type="text"]::placeholder {
 }
 
 input[type="submit"] {
-  background-color: rgb(0, 132, 255);
+  background-color: #333;
   color: white;
   font-weight: 500;
   font-size: 18px;
@@ -204,7 +204,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: rgb(4, 88, 167);
+  background-color: #333;
 }
 .logo2 {
   height: 4.2rem;
