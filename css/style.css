@@ -360,11 +360,11 @@
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
+  padding: 0 19.6rem ;
+  
 }
 
-.testimonials-container {
-  padding: 19.6rem;
-}
+
 
 .testimonials {
   grid-template-columns: 1fr 1fr;
@@ -388,24 +388,39 @@
   font-size: 1.6rem;
   color: #6f6f6f;
 }
-
+/* @media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for desktop */
+  }
+} */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
   gap: 1.6rem;
   padding: 1.6rem;
+  align-items: center; /* Center items vertically in mobile view */
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr); /* Desktop view: 2 columns */
+    justify-content: flex-start; /* Align items to the left */
+  }
 }
 
 .gallery-item {
   overflow: hidden;
+  display: flex;
+  justify-content: center; /* Center items horizontally within each grid item */
 }
 
 .gallery-item img {
   display: block;
-  /* width: 60%; */
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
   transition: all 0.4s;
   border-radius: 4px;
 }
+
+
 
 .section-pricing {
   padding: 9.6rem 0;
