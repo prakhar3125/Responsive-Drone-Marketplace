@@ -80,7 +80,7 @@ header {
 }
 
 .step-check {
-  background-color: rgb(0, 132, 255);
+  background-color: #333;
   height: 30px;
   width: 30px;
   border-radius: 30px;
@@ -108,7 +108,7 @@ header {
 .progress-step-container:nth-of-type(2) .step-check {
   background-image: none;
   background-color: white;
-  border: 2px solid rgb(0, 132, 255);
+  border: 2px solid #333;
 }
 
 .step-check::after {

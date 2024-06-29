@@ -120,7 +120,20 @@
   .cta-form {
     grid-template-columns: 1fr;
   }
+  .btn--form {
+    border: 2px solid #ffffff;
+    /* background-color: transparent; */
+    align-self: end;
+    padding: 1.2rem;
+    color: #333;
+    border-radius: 11px; /* Adds curvature to the corners */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
+  .btn--form:hover {
+    background-color: #333;
+    color: #fff;
+  }
   .btn--form {
     margin-top: 1.2rem;
   }
